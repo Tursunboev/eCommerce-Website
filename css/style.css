@@ -8,20 +8,15 @@
      font-family: 'Poppins', sans-serif;
 }
 .container {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
     max-width: 1440px;
     width: 100%;
     /* height: 2420px; */
-    background-color: #ffffff;
-    border: 1px solid red;
+    /* background-color: #ffffff;
+    border: 1px solid red; */
     margin: 0 auto;
     
 }
-.container1 {
-    height: 1010px;
-}
+
 .container1__picture {
     height: 1010px;
     background-image: url("../images/scandinavian-interior-mockup-wall-decal-background\ 1.png");
@@ -90,9 +85,6 @@
     display: flex;
     gap: 47px;
 }
-
-.container2 {
-}
 .container2__theme 
 {
     margin-top: 57px;
@@ -143,14 +135,11 @@
    display: flex;
    flex-wrap: wrap;
    gap: 32px;
-
-  
 }
 .container__box1 {
     width: 285px;
     height: 446px;
     flex-direction: column;
-
 }
 .container__tex1 {
     width: 285px;
@@ -178,9 +167,8 @@
     width: 285px;
     height: 446px;
     flex-direction: column;
-}
-.background__image {
-
+    filter: blur(5px);
+    
 }
 .container__tex2 {
     width: 285px;
@@ -251,7 +239,6 @@
 }
 .container__cost4 {
      margin-left: 16px;
-    
 }
 .container__box5 {
     width: 285px;
@@ -276,7 +263,6 @@
 }
 .container__cost5 {
      margin-left: 16px;
-    
 }
 .container__box6 {
     width: 285px;
@@ -301,7 +287,6 @@
 }
 .container__cost6 {
      margin-left: 16px;
-    
 }
 .container__box7 {
     width: 285px;
@@ -325,7 +310,6 @@
     padding-bottom: 8px;
 }
 .container__cost7 {
-     
      display: flex;
      padding-left: 16px;
      gap: 16px;
@@ -334,6 +318,11 @@
     width: 285px;
     height: 446px;
     flex-direction: column;
+    display: flex;
+    margin-left: 950px;
+    margin-top: -446px;
+
+    
 } 
 .container__tex8 {
     width: 285px;
@@ -355,3 +344,4 @@
      
     padding-left: 16px;
 }
+
